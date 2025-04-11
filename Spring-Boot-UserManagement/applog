@@ -1,0 +1,35 @@
+2025-04-07 17:46:11.433  INFO 13600 --- [restartedMain] com.SpringBootUserManagementApplication  : Starting SpringBootUserManagementApplication using Java 1.8.0_202 on LAPTOP-HRILOCAA with PID 13600 (C:\Users\saurao\OneDrive\Desktop\SpringBoot Projects\Spring-Boot-UserManagement\target\classes started by saurao in C:\Users\saurao\OneDrive\Desktop\SpringBoot Projects\Spring-Boot-UserManagement)
+2025-04-07 17:46:11.437  INFO 13600 --- [restartedMain] com.SpringBootUserManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-07 17:46:11.480  INFO 13600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-07 17:46:11.481  INFO 13600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-07 17:46:12.766  INFO 13600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-07 17:46:13.000  INFO 13600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 223 ms. Found 1 JPA repository interfaces.
+2025-04-07 17:46:13.595  INFO 13600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2020 (http)
+2025-04-07 17:46:13.604  INFO 13600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-07 17:46:13.605  INFO 13600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2025-04-07 17:46:13.720  INFO 13600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-07 17:46:13.720  INFO 13600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2239 ms
+2025-04-07 17:46:14.182  INFO 13600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-07 17:46:14.239  INFO 13600 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-04-07 17:46:14.413  INFO 13600 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-07 17:46:14.558  INFO 13600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-07 17:46:14.737  INFO 13600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-07 17:46:14.748  INFO 13600 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2025-04-07 17:46:15.394  INFO 13600 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-07 17:46:15.404  INFO 13600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 17:46:15.690  WARN 13600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-07 17:46:16.131  INFO 13600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-07 17:46:16.136  INFO 13600 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-04-07 17:46:16.197  INFO 13600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2020 (http) with context path ''
+2025-04-07 17:46:16.213  INFO 13600 --- [restartedMain] com.SpringBootUserManagementApplication  : Started SpringBootUserManagementApplication in 5.114 seconds (JVM running for 5.961)
+2025-04-07 17:48:11.910  INFO 13600 --- [http-nio-2020-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 17:48:11.911  INFO 13600 --- [http-nio-2020-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-07 17:48:11.915  INFO 13600 --- [http-nio-2020-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-04-07 17:55:49.544  WARN 13600 --- [http-nio-2020-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2025-04-07 17:56:37.633  WARN 13600 --- [http-nio-2020-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2025-04-07 18:15:36.899  INFO 13600 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-07 18:15:37.229  INFO 13600 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-04-07 18:15:37.236  INFO 13600 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-04-07 18:15:37.283  INFO 13600 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-07 18:15:37.298  INFO 13600 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-07 18:15:37.307  INFO 13600 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
